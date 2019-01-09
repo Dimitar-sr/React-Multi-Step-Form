@@ -38,8 +38,8 @@ export class FormUserDetails extends Component {
                 />
                 <br></br>
                 <RaisedButton 
-                    label='continue'
-                    primary={true}
+                    label='Continue'
+                    primary={false}
                     style={styles.button}
                     onClick={this.continue}
                 />
